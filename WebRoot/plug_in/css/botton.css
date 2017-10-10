@@ -1,0 +1,89 @@
+.rb-candy {
+    cursor:pointer;
+    font:normal 18px 'ÐÂËÎÌå',Serif;
+    background-color:transparent;
+    background-image:-webkit-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    background-image:-moz-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    background-image:-ms-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    background-image:-o-linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    background-image:linear-gradient(top, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    border:none;
+	width:88px;
+	height:88px;
+    padding:23px 0px;
+    color:black;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.2), 0px 0px 10px black;
+    -webkit-box-shadow:inset 0px -1px 10px rgba(255,255,255,0.7),
+      0px 1px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow:inset 0px -1px 10px rgba(255,255,255,0.7),
+      0px 1px 3px rgba(0,0,0,0.4);
+    box-shadow:inset 0px -1px 10px rgba(255,255,255,0.7),
+      0px 1px 3px rgba(0,0,0,0.4);
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    -webkit-transition:top 0.26s ease-out;
+    -moz-transition:top 0.26s ease-out;
+    -ms-transition:top 0.26s ease-out;
+    -o-transition:top 0.26s ease-out;
+    transition:top 0.26s ease-out;
+    position:relative;
+}
+.rb-candy:hover {
+    background-color:red;
+    -webkit-animation:rainbow 0.5s infinite alternate;
+    -moz-animation:rainbow 0.5s infinite alternate;
+    -ms-animation:rainbow 0.5s infinite alternate;
+    -o-animation:rainbow 0.5s infinite alternate;
+    animation:rainbow 0.5s infinite alternate;
+}
+.rb-candy:focus {
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+}
+@-webkit-keyframes rainbow {
+0%   {background-color:red;top:-2px;       }
+20%  {background-color:gold;top:0px;       }
+40%  {background-color:yellow;top:-2px;    }
+60%  {background-color:yellowgreen;top:0px;}
+80%  {background-color:skyblue;top:-2px;   }
+100% {background-color:indigo;top:0px;     }
+}
+@-moz-keyframes rainbow {
+0%   {background-color:red;top:-2px;       }
+20%  {background-color:gold;top:0px;       }
+40%  {background-color:yellow;top:-2px;    }
+60%  {background-color:yellowgreen;top:0px;}
+80%  {background-color:skyblue;top:-2px;   }
+100% {background-color:indigo;top:0px;     }
+}
+@-ms-keyframes rainbow {
+0%   {background-color:red;top:-2px;       }
+20%  {background-color:gold;top:0px;       }
+40%  {background-color:yellow;top:-2px;    }
+60%  {background-color:yellowgreen;top:0px;}
+80%  {background-color:skyblue;top:-2px;   }
+100% {background-color:indigo;top:0px;     }
+}
+@-o-keyframes rainbow {
+0%   {background-color:red;top:-2px;       }
+20%  {background-color:gold;top:0px;       }
+40%  {background-color:yellow;top:-2px;    }
+60%  {background-color:yellowgreen;top:0px;}
+80%  {background-color:skyblue;top:-2px;   }
+100% {background-color:indigo;top:0px;     }
+}
+@keyframes rainbow {
+0%   {background-color:red;top:-2px;       }
+20%  {background-color:gold;top:0px;       }
+40%  {background-color:yellow;top:-2px;    }
+60%  {background-color:yellowgreen;top:0px;}
+80%  {background-color:skyblue;top:-2px;   }
+100% {background-color:indigo;top:0px;     }
+}
+#botton{
+float:right;
+margin:3px 3px;
+}

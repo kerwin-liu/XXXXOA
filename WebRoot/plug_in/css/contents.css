@@ -1,0 +1,26 @@
+.content {
+	width: 99%;
+	height: 99%;
+	float: left;
+	margin: 3px 3px;
+	border: 1px solid #6ab3c2;
+	border-radius: 15px;
+}
+.vi{
+	color:red;
+}
+#de:HOVER{
+	cursor: pointer;	
+
+}
+.charts{
+	float: left;
+	border: 1px solid #6ab3c2;
+	overflow:hidden;
+	border-radius: 15px;
+	margin: 3px 3px;
+}
+body {
+	overflow: hidden;
+}
+
